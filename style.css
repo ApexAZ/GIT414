@@ -58,8 +58,30 @@ table {
 
 /* GLOBAL STYLES */
 
+body {
+	font-size: 16px;
+}
+
 /* MEDIA QUERY (medium) */
+
+@media (min-width: 768px) {
+	body {
+		font-size: 18px;
+	}
+}
 
 /* MEDIA QUERY (large) */
 
+@media (min-width: 1024px) {
+	body {
+		font-size: 20px;
+	}
+}
+
 /* MEDIA QUERY (xl) */
+
+@media (min-width: 1200px) {
+	body {
+		font-size: 22px;
+	}
+}
